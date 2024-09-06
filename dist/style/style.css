@@ -181,3 +181,137 @@ header {
 }
 
 /* fin footer */
+/* debut reponsive Table */
+@media (min-width:28rem) {
+    .btn-active {
+        background-color: #f76f6f;
+        padding: 0.5rem 1.5rem;
+        border-radius: 5px;
+        color: #fff;
+    }
+
+    .btn-danger {
+        color: #f76f6f;
+        border: 1px solid #f76f6f;
+        padding: 0.5rem 1.5rem;
+        border-radius: 5px;
+    }
+
+    .title h2 {
+        text-align: center;
+        padding-top: 2.5rem;
+        color: #f76f6f;
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    .hero-desc__p {
+        font-size: 1.2rem;
+        padding: 0.65rem 0.5rem;
+        text-align: center;
+        color: #000;
+    }
+
+    .hero-desc__h2 {
+        font-size: 2rem;
+        text-align: center;
+        padding-top: 0.65rem;
+        color: #f68a5c;
+    }
+
+    .learn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .learn-bg {
+        width: 100%;
+        height: 70vh;
+        background-color: #f68e5f;
+    }
+
+    .learn-text p {
+        text-align: center;
+        color: #fff;
+        padding: 2.5rem 0rem;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+
+    .card-form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0.65rem;
+        gap: 10px;
+    }
+
+    .btn-valider button {
+        background-color: #fff;
+        width: 8rem;
+        height: 2rem;
+        border-radius: 5px;
+        border: none;
+        color: #f68b5b;
+        font-size: 1rem;
+        padding: 5px 0;
+        font-weight: 700;
+    }
+
+    .btn-partage button {
+        background-color: #fff;
+        width: 8rem;
+        height: 2rem;
+        border-radius: 5px;
+        border: none;
+        color: #f68b5b;
+        font-size: 1rem;
+        padding: 5px 0;
+        font-weight: 700;
+    }
+}
+
+/* debut reponsive Desktop */
+@media (min-width:62rem) {
+    header {
+        display: flex;
+        padding: 1% 5%;
+        width: 100%;
+
+    }
+
+    .btn-active {
+        background-color: #f76f6f;
+        padding: 0.5rem 1.5rem;
+        border-radius: 5px;
+        color: #fff;
+    }
+
+    .btn-danger {
+        color: #f76f6f;
+        border: 1px solid #f76f6f;
+        padding: 0.5rem 1.5rem;
+        border-radius: 5px;
+    }
+
+    .learn {
+        padding: 1% 5%;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .btn-partage button {
+        background-color: #fff;
+        width: 8rem;
+        height: 2.5rem;
+        border-radius: 5px;
+        border: none;
+        color: #f68b5b;
+        font-size: 1rem;
+        padding: 0.32rem 0rem;
+        margin-top: 1.25rem;
+        font-weight: 700;
+    }
+}
