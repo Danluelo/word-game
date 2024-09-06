@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.65rem 1.25rem;
+    background-color: #fcfcfc;
+    height: 5rem;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+    padding-top: 0.75rem;
+    font-weight: 700;
+    color: #f76f6f;
+}
+
+.navbar-list {
+    display: flex;
+    gap: 20px;
+    font-size: 1rem;
+    padding-top: 1.25rem;
+    font-weight: 700;
+}
+
+.btn-active {
+    background-color: #f76f6f;
+    padding: 0.2rem 0.65rem;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btn-danger {
+    color: #f76f6f;
+    border: 1px solid red;
+    padding: 0.2rem 0.65rem;
+    border-radius: 5px;
+}
+
+/* deut bloc main */
+
+/* debut premiere section */
+.title h2 {
+    text-align: center;
+    padding-top: 1.88rem;
+    color: #f76f6f;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+/* fin premiere section */
+
+/* debut dexieme section */
+.hero-desc__h2 {
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 0.65rem;
+    color: #f68a5c;
+}
+
+.hero-desc__p {
+    font-size: 0.88rem;
+    padding: 0.65rem 0.2rem;
+    text-align: center;
+    color: #000;
+}
+
+/* fin dexieme section */
+
+/* debut div learn-bg */
+.learn-bg {
+    background-color: #f68e5f;
+    margin: 1.25rem 0.65rem;
+    border-radius: 10px;
+    height: 21rem;
+}
+
+.learn-text p {
+    text-align: center;
+    color: #fff;
+    padding-top: 1.25rem;
+    font-size: 0.88rem;
+}
+
+.learn_check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 0.65rem 0rem;
+    color: #fff;
+}
+
+.card-title {
+    height: 3.2rem;
+    background-color: #fff;
+    margin: 0rem 0.65rem;
+    border-radius: 10px;
+}
+
+.card-title h2 {
+    color: #f76f6f;
+    text-align: center;
+    padding: 0.5rem 0rem;
+}
+
+.card-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.65rem;
+    gap: 10px;
+}
+
+.form input {
+    width: 15.67rem;
+    height: 2rem;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    padding: 0rem 0.65rem;
+}
+
+.resultat p {
+    text-align: center;
+    color: #fff;
+    padding: 0.65rem 0rem;
+}
+
+.btn-partage,
+.btn-valider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-partage button {
+    background-color: #fff;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    color: #f68b5b;
+    font-size: 1rem;
+    padding: 5px 0;
+    font-weight: 700;
+}
+
+.btn-valider button {
+    background-color: #fff;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    color: #f68b5b;
+    font-size: 1rem;
+    padding: 5px 0;
+    font-weight: 700;
+}
+
+/* debut footer */
+.footer {
+    background-color: #f68e5f;
+    height: 2.8rem;
+}
+
+.footer p {
+    text-align: center;
+    color: #fff;
+    padding: 0.75rem 0rem;
+}
+
+/* fin footer */
